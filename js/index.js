@@ -1,5 +1,5 @@
 require(["config"], function() {
-    require(["jquery", "template", "load"], function($, template) {
+    require(["jquery", "template","load"], function($, template) {
         
     });
 });
