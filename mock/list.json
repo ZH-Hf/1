@@ -1,0 +1,8 @@
+[
+	{"name":"商品1", "imgSrc":"images/001.jpg", "price":99},
+	{"name":"商品2", "imgSrc":"images/002.jpg", "price":199},
+	{"name":"商品3", "imgSrc":"images/003.jpg", "price":299},
+	{"name":"商品4", "imgSrc":"images/004.jpg", "price":399},
+	{"name":"商品5", "imgSrc":"images/005.jpg", "price":499},
+	{"name":"商品6", "imgSrc":"images/006.jpg", "price":599}
+]
