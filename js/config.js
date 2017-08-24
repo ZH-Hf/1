@@ -5,6 +5,7 @@ require.config({
 		"jquery" : "lib/jquery/jquery-1.12.4.min",
 		"cookie" : "lib/jquery_plugins/jquery.cookie",
 		"template" : "lib/arttemplate/template-native",
-		"load" : "js/loadHeaderFooter"
+		"load" : "js/loadHeaderFooter",
+		"bootstrap":"lib/bootstrap-3.3.7-dist/js/bootstrap.min"
 	}
 });

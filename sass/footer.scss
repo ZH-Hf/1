@@ -1,6 +1,6 @@
 .footer {
     height: 410px;
-    background: yellow;
+    background: whitesmoke;
 }
 
 .serviceIcon {
@@ -15,7 +15,7 @@
 }
 
 .followUs {
-	background: #F5F5F5;
+    background: #F5F5F5;
     width: 1173px;
     height: 241px;
     margin: auto;
@@ -23,7 +23,7 @@
         float: left;
         width: 114px;
         height: 77px; // background: red;
-        margin: 47px 140px  0 100px;
+        margin: 47px 140px 0 100px;
         span:nth-of-type(1) {
             width: 100%;
             display: block;
@@ -45,7 +45,7 @@
         }
     }
 
-   .aboutUs{
+    .aboutUs {
         float: left;
         margin-top: 47px;
         margin-right: 128px;
@@ -55,45 +55,50 @@
         }
         dd {
             a {
-            	text-decoration: none;
+                text-decoration: none;
                 font-size: 11px;
                 color: #333;
                 margin-bottom: 13px;
             }
         }
     }
-    .downApp{
-    	font-weight: bold;
-    	margin-top: 43px;
-    	float: left;
-    	margin-bottom: 48px;
+    .downApp {
+        font-weight: bold;
+        margin-top: 43px;
+        float: left;
+        margin-bottom: 48px;
     }
-    .friendlyLink{
-    	width: 100%;
-    	float: left;
-    	margin-left: 100px;
-    	dt{
-    		float: left;
-    		margin-right: 40px;
-    		font-weight: bold;
-    	}
-    	dd{
-    		float: left;
-    		margin-right: 30px;
-    		a{
-    			font-size: 12px;
-    		}
-    	}
+    .friendlyLink {
+        width: 100%;
+        float: left;
+        margin-left: 100px;
+        dt {
+            float: left;
+            margin-right: 40px;
+            font-weight: bold;
+        }
+        dd {
+            float: left;
+            margin-right: 30px;
+            a {
+                font-size: 12px;
+            }
+        }
     }
 }
-.copyright{
-	width: 1173px;
-	height: 36px;
-	font-size: 11px;
-	background: #333;
-	color: #fff;
-	// font-weight: bold;
-	text-align: center;
-	line-height: 27px;
-	margin: auto;
+
+.copyright {
+    p {
+        font-size: 11px;
+        color: #fff;
+        margin: auto;
+        width: 1173px;
+        text-align: center;
+        line-height: 27px;
+    }
+    background: #333;
+    width: 100%;
+    height: 36px; // font-weight: bold;
+    // text-align: center;
+    // margin: auto;
 }

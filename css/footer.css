@@ -1,6 +1,6 @@
 .footer {
   height: 410px;
-  background: yellow;
+  background: whitesmoke;
 }
 
 .serviceIcon {
@@ -24,7 +24,7 @@
   float: left;
   width: 114px;
   height: 77px;
-  margin: 47px 140px  0 100px;
+  margin: 47px 140px 0 100px;
 }
 .followUs .attentionUs span:nth-of-type(1) {
   width: 100%;
@@ -85,14 +85,17 @@
 }
 
 .copyright {
-  width: 1173px;
-  height: 36px;
-  font-size: 11px;
   background: #333;
+  width: 100%;
+  height: 36px;
+}
+.copyright p {
+  font-size: 11px;
   color: #fff;
+  margin: auto;
+  width: 1173px;
   text-align: center;
   line-height: 27px;
-  margin: auto;
 }
 
 /*# sourceMappingURL=footer.css.map */
