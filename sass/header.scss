@@ -6,7 +6,10 @@ ul{
 	list-style:none;
 	margin: 0;
 }
-
+a{
+	text-decoration: none!important;
+	color: #333;
+}
 #top{
 	height:36px;
 	background:#333;

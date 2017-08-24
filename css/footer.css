@@ -1,2 +1,98 @@
-.footer{height:410px;background:greenyellow}.serviceIcon{width:1173px;height:132px;background-color:#F5F5F5;margin:auto}.serviceIcon img{margin:50px 0 0 70px}
+.footer {
+  height: 410px;
+  background: yellow;
+}
+
+.serviceIcon {
+  width: 1173px;
+  height: 132px;
+  background-color: #F5F5F5;
+  margin: auto;
+  border-bottom: 1px solid #DBDBDB;
+}
+.serviceIcon img {
+  margin: 50px 0 0 70px;
+}
+
+.followUs {
+  background: #F5F5F5;
+  width: 1173px;
+  height: 241px;
+  margin: auto;
+}
+.followUs .attentionUs {
+  float: left;
+  width: 114px;
+  height: 77px;
+  margin: 47px 140px  0 100px;
+}
+.followUs .attentionUs span:nth-of-type(1) {
+  width: 100%;
+  display: block;
+  font-size: 12px;
+  color: #333;
+  margin-bottom: 12px;
+}
+.followUs .attentionUs span:nth-of-type(2),
+.followUs .attentionUs span:nth-of-type(3) {
+  float: left;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: url("../img/weibo.png");
+}
+.followUs .attentionUs span:nth-of-type(3) {
+  background: url("../img/wechart.png");
+  float: right;
+}
+.followUs .aboutUs {
+  float: left;
+  margin-top: 47px;
+  margin-right: 128px;
+}
+.followUs .aboutUs dt {
+  font-size: 12px;
+  margin-bottom: 23px;
+}
+.followUs .aboutUs dd a {
+  text-decoration: none;
+  font-size: 11px;
+  color: #333;
+  margin-bottom: 13px;
+}
+.followUs .downApp {
+  font-weight: bold;
+  margin-top: 43px;
+  float: left;
+  margin-bottom: 48px;
+}
+.followUs .friendlyLink {
+  width: 100%;
+  float: left;
+  margin-left: 100px;
+}
+.followUs .friendlyLink dt {
+  float: left;
+  margin-right: 40px;
+  font-weight: bold;
+}
+.followUs .friendlyLink dd {
+  float: left;
+  margin-right: 30px;
+}
+.followUs .friendlyLink dd a {
+  font-size: 12px;
+}
+
+.copyright {
+  width: 1173px;
+  height: 36px;
+  font-size: 11px;
+  background: #333;
+  color: #fff;
+  text-align: center;
+  line-height: 27px;
+  margin: auto;
+}
+
 /*# sourceMappingURL=footer.css.map */

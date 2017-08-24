@@ -1,13 +1,99 @@
-.footer{
-	height: 410px;
-	background:greenyellow;
+.footer {
+    height: 410px;
+    background: yellow;
 }
-.serviceIcon{
+
+.serviceIcon {
+    width: 1173px;
+    height: 132px;
+    background-color: #F5F5F5;
+    margin: auto;
+    border-bottom: 1px solid #DBDBDB;
+    img {
+        margin: 50px 0 0 70px;
+    }
+}
+
+.followUs {
+	background: #F5F5F5;
+    width: 1173px;
+    height: 241px;
+    margin: auto;
+    .attentionUs {
+        float: left;
+        width: 114px;
+        height: 77px; // background: red;
+        margin: 47px 140px  0 100px;
+        span:nth-of-type(1) {
+            width: 100%;
+            display: block;
+            font-size: 12px;
+            color: #333;
+            margin-bottom: 12px;
+        }
+        span:nth-of-type(2),
+        span:nth-of-type(3) {
+            float: left;
+            width: 48px;
+            height: 48px;
+            border-radius: 50%;
+            background: url("../img/weibo.png");
+        }
+        span:nth-of-type(3) {
+            background: url("../img/wechart.png");
+            float: right;
+        }
+    }
+
+   .aboutUs{
+        float: left;
+        margin-top: 47px;
+        margin-right: 128px;
+        dt {
+            font-size: 12px;
+            margin-bottom: 23px;
+        }
+        dd {
+            a {
+            	text-decoration: none;
+                font-size: 11px;
+                color: #333;
+                margin-bottom: 13px;
+            }
+        }
+    }
+    .downApp{
+    	font-weight: bold;
+    	margin-top: 43px;
+    	float: left;
+    	margin-bottom: 48px;
+    }
+    .friendlyLink{
+    	width: 100%;
+    	float: left;
+    	margin-left: 100px;
+    	dt{
+    		float: left;
+    		margin-right: 40px;
+    		font-weight: bold;
+    	}
+    	dd{
+    		float: left;
+    		margin-right: 30px;
+    		a{
+    			font-size: 12px;
+    		}
+    	}
+    }
+}
+.copyright{
 	width: 1173px;
-	height: 132px;
-	background-color: #F5F5F5;
+	height: 36px;
+	font-size: 11px;
+	background: #333;
+	color: #fff;
+	// font-weight: bold;
+	text-align: center;
+	line-height: 27px;
 	margin: auto;
-}
-.serviceIcon img{
-	margin: 50px 0 0 70px;
 }
