@@ -13,14 +13,18 @@ define(["jquery", "cookie"], function($) {
 
             })
              $.each(data[1].products,function(i,e){
+
             	var html=` <div class="singel_template_2">
                         <img src="${e.imgSrc}" alt="">
                         <p>${e.name}</p>
                         <span>${e.price}</span>
                     </div>`
             	$(html).appendTo(".products_table");
-            	console.log(e);
             })
+             $.each(data[1].tag,function(i,e){
+               console.log(e);
+               $(".products_list .item li:nth-of-type("+i+") a").html(e);
+             })
         }
     });
 });

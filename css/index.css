@@ -1,3 +1,7 @@
+body {
+  overflow-x: hidden;
+}
+
 .hidden {
   display: none;
 }
@@ -7,36 +11,67 @@
   background: #fff;
 }
 .main .banner {
-  width: 100%;
-  /* .carousel {
-      // width: 1920px;
-      height: 430px;
-      overflow: hidden;
-      margin: auto;
-  } */
+  position: relative;
+  height: 420px;
+}
+.main .banner .toPrev {
+  width: 40px;
+  height: 64px;
+  background: #86ADD7;
+  border-radius: 5px;
+  left: 413px;
+  top: 42%;
+  position: absolute;
+  z-index: 999;
+  cursor: pointer;
+  background: #86ADD7;
+}
+.main .banner .toPrev div {
+  width: 17px;
+  height: 30px;
+  margin: 18px 0 0 10px;
+  background: url("../img/arrows.png") no-repeat;
+}
+.main .banner .toNext {
+  width: 40px;
+  height: 64px;
+  background: #86ADD7;
+  border-radius: 5px;
+  right: 257px;
+  line-height: 64px;
+  top: 42%;
+  position: absolute;
+  cursor: pointer;
+  z-index: 999;
+}
+.main .banner .toNext div {
+  width: 17px;
+  height: 30px;
+  margin: 18px 0 0 10px;
+  background: url("../img/arrows.png") no-repeat 0 -30px;
+}
+.main .banner .carousel {
+  width: 1920px;
+  height: 430px;
+  position: absolute;
+  left: -375px;
+}
+.main .banner .carousel .carousel-indicators li {
+  display: inline-block;
+  width: 24px;
+  height: 4px;
+  background: #fff;
+  margin: 0 3px;
+  cursor: pointer;
+  border-radius: 0;
+  border: 0;
+}
+.main .banner .carousel .carousel-indicators .active {
+  background: #69C;
 }
 .main .banner .carousel-control.left,
 .main .banner .carousel-control.right {
-  width: 40px;
-  background: #86ADD7;
-  background-image: none;
-  opacity: 1;
-  border-radius: 5px;
-}
-.main .banner .carousel-control.left span,
-.main .banner .carousel-control.right span {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: auto;
-}
-.main .banner .left {
-  left: 413px;
-}
-.main .banner .right {
-  right: 256px;
+  display: none;
 }
 .main .products_list {
   width: 1173px;
