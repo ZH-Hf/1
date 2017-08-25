@@ -10,6 +10,9 @@ a{
 	text-decoration: none!important;
 	color: #333;
 }
+img{
+	vertical-align: 0;
+}
 #top{
 	height:36px;
 	background:#333;
@@ -40,6 +43,7 @@ a{
 }
 .top_right{
 	float: right;
+
 }
 .top_right li{
 	margin-top: 12px;
@@ -79,13 +83,17 @@ a{
 }
 
 .logo{
-	float: left;
+	display: inline-block;
+	// float: left;
 }
 .logo img{
 	margin: 28px 188px 0 0;
 }
 .search_box{
-	float: left;
+	// float: left;
+	display: inline-block;
+	// 
+	overflow: hidden;
 	margin: 30px 210px 0 0 ;
 }
 .search{
@@ -118,7 +126,7 @@ a{
 	/* background: url('../img/search.jpg') no-repeat ; */
 }
 .search_suggest{
-	float: left;
+	// float: left;
 	margin-top: 7px;
 }
 .search_suggest li{
@@ -137,7 +145,10 @@ a{
 	height: 34px;
 	border: 1px solid #d9d9d9;
 	border-radius: 5px;
-	float: left;
+	// float: left;
+	float: right;
+	display: inline-block;
+	
 	margin-top: 30px;
 	padding: 0 14px;
 }

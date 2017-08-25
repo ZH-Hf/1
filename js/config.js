@@ -6,6 +6,8 @@ require.config({
 		"cookie" : "lib/jquery_plugins/jquery.cookie",
 		"template" : "lib/arttemplate/template-native",
 		"load" : "js/loadHeaderFooter",
-		"bootstrap":"lib/bootstrap-3.3.7-dist/js/bootstrap.min"
+		"bootstrap":"lib/bootstrap-3.3.7-dist/js/bootstrap.min",
+		"loadCarousel":"js/loadCarousel",
+		"loadIndexData":"js/loadIndexData",
 	}
 });

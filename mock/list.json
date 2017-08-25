@@ -2,10 +2,10 @@
 	{
 		"title":"热卖推荐",
 		"products":[
-			{"id":1,"name":"YUKI原创T恤保卫星球男女卡通情侣","imgSrc":"","price":"38.0"},
-			{"id":2,"name":"日本无印良品 清爽型/滋润型高保湿滋润化妆水水乳爽肤水乳液200ml敏感肌","imgSrc":"","price":"52.0"},
-			{"id":3,"name":"Kracie/肌美精3D立体超浸透保湿面膜套装 日本进口粉色","imgSrc":"","price":"48.0"},
-			{"id":4,"name":"法国NUXE/欧树多效滋养精华油50ml全身护理精油 欧树全效保养油","imgSrc":"","price":"78.0"},
+			{"id":1,"name":"YUKI原创T恤保卫星球男女卡通情侣","imgSrc":"img/gooddetailimg_20170823154935509512.JPEG","price":"38.0"},
+			{"id":2,"name":"日本无印良品 清爽型/滋润型高保湿滋润化妆水水乳爽肤水乳液200ml敏感肌","imgSrc":"img/gooddetailimg_20170808142616364883.JPEG","price":"52.0"},
+			{"id":3,"name":"Kracie/肌美精3D立体超浸透保湿面膜套装 日本进口粉色","imgSrc":"img/gooddetailimg_20170804130621767119.png","price":"48.0"},
+			{"id":4,"name":"法国NUXE/欧树多效滋养精华油50ml全身护理精油 欧树全效保养油","imgSrc":"img/gooddetailimg_20170802113006435948.JPEG","price":"78.0"}
 
 		]
 	},
@@ -13,127 +13,19 @@
 		"title":"美妆日化",
 		"recommend":{
 			"imgSrc":"",
-			"imgLinkTo":"",
+			"imgLinkTo":""
 		},
 		"products":[
-			{"id":1,"name":"YUKI原创T恤保卫星球男女卡通情侣","imgSrc":"","price":"38.0"},
-			{"id":2,"name":"日本无印良品 清爽型/滋润型高保湿滋润化妆水水乳爽肤水乳液200ml敏感肌","imgSrc":"","price":"52.0"},
-			{"id":3,"name":"Kracie/肌美精3D立体超浸透保湿面膜套装 日本进口粉色","imgSrc":"","price":"48.0"},
-			{"id":4,"name":"法国NUXE/欧树多效滋养精华油50ml全身护理精油 欧树全效保养油","imgSrc":"","price":"78.0"},
-			{"id":5,"name":"YUKI原创T恤保卫星球男女卡通情侣","imgSrc":"","price":"38.0"},
-			{"id":6,"name":"日本无印良品 清爽型/滋润型高保湿滋润化妆水水乳爽肤水乳液200ml敏感肌","imgSrc":"","price":"52.0"},
-			{"id":7,"name":"Kracie/肌美精3D立体超浸透保湿面膜套装 日本进口粉色","imgSrc":"","price":"48.0"},
-			{"id":8,"name":"法国NUXE/欧树多效滋养精华油50ml全身护理精油 欧树全效保养油","imgSrc":"","price":"78.0"},
+			{"id":1,"name":"YUKI原创T恤保卫星球男女卡通情侣","imgSrc":"img/gooddetailimg_20170608131055985694.JPEG","price":"38.0"},
+			{"id":2,"name":"日本无印良品 清爽型/滋润型高保湿滋润化妆水水乳爽肤水乳液200ml敏感肌","imgSrc":"img/gooddetailimg_20170616143700933008.JPEG","price":"52.0"},
+			{"id":3,"name":"Kracie/肌美精3D立体超浸透保湿面膜套装 日本进口粉色","imgSrc":"img/gooddetailimg_20170707141632518043.JPEG","price":"48.0"},
+			{"id":4,"name":"法国NUXE/欧树多效滋养精华油50ml全身护理精油 欧树全效保养油","imgSrc":"img/gooddetailimg_20170606091752618043.JPEG","price":"78.0"},
+			{"id":5,"name":"YUKI原创T恤保卫星球男女卡通情侣","imgSrc":"img/gooddetailimg_20170605165615156654.JPEG","price":"38.0"},
+			{"id":6,"name":"日本无印良品 清爽型/滋润型高保湿滋润化妆水水乳爽肤水乳液200ml敏感肌","imgSrc":"img/gooddetailimg_20170606103329104830.JPEG","price":"52.0"},
+			{"id":7,"name":"Kracie/肌美精3D立体超浸透保湿面膜套装 日本进口粉色","imgSrc":"img/gooddetailimg_20170704102623292363.JPEG","price":"48.0"},
+			{"id":8,"name":"法国NUXE/欧树多效滋养精华油50ml全身护理精油 欧树全效保养油","imgSrc":"img/gooddetailimg_20170606103329104830.JPEG","price":"78.0"}
 
 		]
-	},
-	{
-		"title":"服装",
-		"recommend":{
-			"imgSrc":"",
-			"imgLinkTo":"",
-		},
-		"products":[
-			{"id":1,"name":"YUKI原创T恤保卫星球男女卡通情侣","imgSrc":"","price":"38.0"},
-			{"id":2,"name":"日本无印良品 清爽型/滋润型高保湿滋润化妆水水乳爽肤水乳液200ml敏感肌","imgSrc":"","price":"52.0"},
-			{"id":3,"name":"Kracie/肌美精3D立体超浸透保湿面膜套装 日本进口粉色","imgSrc":"","price":"48.0"},
-			{"id":4,"name":"法国NUXE/欧树多效滋养精华油50ml全身护理精油 欧树全效保养油","imgSrc":"","price":"78.0"},
-			{"id":5,"name":"YUKI原创T恤保卫星球男女卡通情侣","imgSrc":"","price":"38.0"},
-			{"id":6,"name":"日本无印良品 清爽型/滋润型高保湿滋润化妆水水乳爽肤水乳液200ml敏感肌","imgSrc":"","price":"52.0"},
-			{"id":7,"name":"Kracie/肌美精3D立体超浸透保湿面膜套装 日本进口粉色","imgSrc":"","price":"48.0"},
-			{"id":8,"name":"法国NUXE/欧树多效滋养精华油50ml全身护理精油 欧树全效保养油","imgSrc":"","price":"78.0"},
-
-		]
-	},
-	{
-		"title":"配饰",
-		"recommend":{
-			"imgSrc":"",
-			"imgLinkTo":"",
-		},
-		"products":[
-			{"id":1,"name":"YUKI原创T恤保卫星球男女卡通情侣","imgSrc":"","price":"38.0"},
-			{"id":2,"name":"日本无印良品 清爽型/滋润型高保湿滋润化妆水水乳爽肤水乳液200ml敏感肌","imgSrc":"","price":"52.0"},
-			{"id":3,"name":"Kracie/肌美精3D立体超浸透保湿面膜套装 日本进口粉色","imgSrc":"","price":"48.0"},
-			{"id":4,"name":"法国NUXE/欧树多效滋养精华油50ml全身护理精油 欧树全效保养油","imgSrc":"","price":"78.0"},
-			{"id":5,"name":"YUKI原创T恤保卫星球男女卡通情侣","imgSrc":"","price":"38.0"},
-			{"id":6,"name":"日本无印良品 清爽型/滋润型高保湿滋润化妆水水乳爽肤水乳液200ml敏感肌","imgSrc":"","price":"52.0"},
-			{"id":7,"name":"Kracie/肌美精3D立体超浸透保湿面膜套装 日本进口粉色","imgSrc":"","price":"48.0"},
-			{"id":8,"name":"法国NUXE/欧树多效滋养精华油50ml全身护理精油 欧树全效保养油","imgSrc":"","price":"78.0"},
-
-		]
-	},
-	{
-		"title":"生活方式",
-		"recommend":{
-			"imgSrc":"",
-			"imgLinkTo":"",
-		},
-		"products":[
-			{"id":1,"name":"YUKI原创T恤保卫星球男女卡通情侣","imgSrc":"","price":"38.0"},
-			{"id":2,"name":"日本无印良品 清爽型/滋润型高保湿滋润化妆水水乳爽肤水乳液200ml敏感肌","imgSrc":"","price":"52.0"},
-			{"id":3,"name":"Kracie/肌美精3D立体超浸透保湿面膜套装 日本进口粉色","imgSrc":"","price":"48.0"},
-			{"id":4,"name":"法国NUXE/欧树多效滋养精华油50ml全身护理精油 欧树全效保养油","imgSrc":"","price":"78.0"},
-			{"id":5,"name":"YUKI原创T恤保卫星球男女卡通情侣","imgSrc":"","price":"38.0"},
-			{"id":6,"name":"日本无印良品 清爽型/滋润型高保湿滋润化妆水水乳爽肤水乳液200ml敏感肌","imgSrc":"","price":"52.0"},
-			{"id":7,"name":"Kracie/肌美精3D立体超浸透保湿面膜套装 日本进口粉色","imgSrc":"","price":"48.0"},
-			{"id":8,"name":"法国NUXE/欧树多效滋养精华油50ml全身护理精油 欧树全效保养油","imgSrc":"","price":"78.0"},
-
-		]
-	},
-	{
-		"title":"文具用品",
-		"recommend":{
-			"imgSrc":"",
-			"imgLinkTo":"",
-		},
-		"products":[
-			{"id":1,"name":"YUKI原创T恤保卫星球男女卡通情侣","imgSrc":"","price":"38.0"},
-			{"id":2,"name":"日本无印良品 清爽型/滋润型高保湿滋润化妆水水乳爽肤水乳液200ml敏感肌","imgSrc":"","price":"52.0"},
-			{"id":3,"name":"Kracie/肌美精3D立体超浸透保湿面膜套装 日本进口粉色","imgSrc":"","price":"48.0"},
-			{"id":4,"name":"法国NUXE/欧树多效滋养精华油50ml全身护理精油 欧树全效保养油","imgSrc":"","price":"78.0"},
-			{"id":5,"name":"YUKI原创T恤保卫星球男女卡通情侣","imgSrc":"","price":"38.0"},
-			{"id":6,"name":"日本无印良品 清爽型/滋润型高保湿滋润化妆水水乳爽肤水乳液200ml敏感肌","imgSrc":"","price":"52.0"},
-			{"id":7,"name":"Kracie/肌美精3D立体超浸透保湿面膜套装 日本进口粉色","imgSrc":"","price":"48.0"},
-			{"id":8,"name":"法国NUXE/欧树多效滋养精华油50ml全身护理精油 欧树全效保养油","imgSrc":"","price":"78.0"},
-
-		]
-	},
-	{
-		"title":"3C数码",
-		"recommend":{
-			"imgSrc":"",
-			"imgLinkTo":"",
-		},
-		"products":[
-			{"id":1,"name":"YUKI原创T恤保卫星球男女卡通情侣","imgSrc":"","price":"38.0"},
-			{"id":2,"name":"日本无印良品 清爽型/滋润型高保湿滋润化妆水水乳爽肤水乳液200ml敏感肌","imgSrc":"","price":"52.0"},
-			{"id":3,"name":"Kracie/肌美精3D立体超浸透保湿面膜套装 日本进口粉色","imgSrc":"","price":"48.0"},
-			{"id":4,"name":"法国NUXE/欧树多效滋养精华油50ml全身护理精油 欧树全效保养油","imgSrc":"","price":"78.0"},
-			{"id":5,"name":"YUKI原创T恤保卫星球男女卡通情侣","imgSrc":"","price":"38.0"},
-			{"id":6,"name":"日本无印良品 清爽型/滋润型高保湿滋润化妆水水乳爽肤水乳液200ml敏感肌","imgSrc":"","price":"52.0"},
-			{"id":7,"name":"Kracie/肌美精3D立体超浸透保湿面膜套装 日本进口粉色","imgSrc":"","price":"48.0"},
-			{"id":8,"name":"法国NUXE/欧树多效滋养精华油50ml全身护理精油 欧树全效保养油","imgSrc":"","price":"78.0"},
-
-		]
-	},
-	{
-		"title":"手办模型",
-		"recommend":{
-			"imgSrc":"",
-			"imgLinkTo":"",
-		},
-		"products":[
-			{"id":1,"name":"YUKI原创T恤保卫星球男女卡通情侣","imgSrc":"","price":"38.0"},
-			{"id":2,"name":"日本无印良品 清爽型/滋润型高保湿滋润化妆水水乳爽肤水乳液200ml敏感肌","imgSrc":"","price":"52.0"},
-			{"id":3,"name":"Kracie/肌美精3D立体超浸透保湿面膜套装 日本进口粉色","imgSrc":"","price":"48.0"},
-			{"id":4,"name":"法国NUXE/欧树多效滋养精华油50ml全身护理精油 欧树全效保养油","imgSrc":"","price":"78.0"},
-			{"id":5,"name":"YUKI原创T恤保卫星球男女卡通情侣","imgSrc":"","price":"38.0"},
-			{"id":6,"name":"日本无印良品 清爽型/滋润型高保湿滋润化妆水水乳爽肤水乳液200ml敏感肌","imgSrc":"","price":"52.0"},
-			{"id":7,"name":"Kracie/肌美精3D立体超浸透保湿面膜套装 日本进口粉色","imgSrc":"","price":"48.0"},
-			{"id":8,"name":"法国NUXE/欧树多效滋养精华油50ml全身护理精油 欧树全效保养油","imgSrc":"","price":"78.0"},
-
-		]
-	},
+	}
 
 ]
