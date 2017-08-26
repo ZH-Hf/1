@@ -12,15 +12,21 @@ define(["jquery"], function($) {
         $(".toNext").click(function() {
             $('.carousel').carousel('next');
         });
-        var autoPlay = setInterval(function() {
+        var autoPlay=null;
+        autoPlay = setInterval(function() {
             $('.carousel').carousel('next');
         }, 2000);
+
         $(".banner").hover(function() {
             clearInterval(autoPlay);
+            autoPlay=null;
+            $(".toPrev,.toNext").fadeIn();
         }, function() {
             autoPlay = setInterval(function() {
-                $('.carousel').carousel('next');
+                $('.carousel').carousel('cycle');
             }, 2000);
+            $(".toPrev,.toNext").fadeOut();
+
         })
     });
 });

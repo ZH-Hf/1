@@ -13,13 +13,16 @@ body {
 .main .banner {
   position: relative;
   height: 420px;
+  width: 1173px;
+  margin: auto;
 }
 .main .banner .toPrev {
+  display: none;
   width: 40px;
   height: 64px;
   background: #86ADD7;
   border-radius: 5px;
-  left: 413px;
+  left: 210px;
   top: 42%;
   position: absolute;
   z-index: 999;
@@ -33,11 +36,12 @@ body {
   background: url("../img/arrows.png") no-repeat;
 }
 .main .banner .toNext {
+  display: none;
   width: 40px;
   height: 64px;
   background: #86ADD7;
   border-radius: 5px;
-  right: 257px;
+  right: 41px;
   line-height: 64px;
   top: 42%;
   position: absolute;
@@ -52,7 +56,7 @@ body {
 }
 .main .banner .carousel {
   width: 1920px;
-  height: 430px;
+  height: 420px;
   position: absolute;
   left: -375px;
 }
@@ -69,9 +73,73 @@ body {
 .main .banner .carousel .carousel-indicators .active {
   background: #69C;
 }
-.main .banner .carousel-control.left,
-.main .banner .carousel-control.right {
+.main .banner .carousel .carousel-control.left,
+.main .banner .carousel .carousel-control.right {
   display: none;
+}
+.main .banner .multi_menu {
+  position: absolute;
+  width: 200px;
+  height: 421px;
+  background: #F5F5F5;
+  z-index: 888;
+  left: 0;
+}
+.main .banner .multi_menu > li {
+  width: 200px;
+  height: 60px;
+  background: #F5F5F5;
+}
+.main .banner .multi_menu > li > img {
+  width: 20px;
+  height: 20px;
+  margin: 20px;
+  float: left;
+}
+.main .banner .multi_menu > li > span {
+  display: inline-block;
+  width: 140px;
+  height: 100%;
+  line-height: 60px;
+  float: left;
+  font-size: 16px;
+  color: #333333;
+}
+.main .banner .multi_menu > li .sub_menu {
+  position: absolute;
+  display: none;
+  width: 270px;
+  height: 420px;
+  top: 0;
+  left: 200px;
+  background: #fff;
+  filter: alpha(opacity=98);
+  opacity: .98;
+  padding-top: 20px;
+  float: left;
+}
+.main .banner .multi_menu > li .sub_menu li {
+  height: 40px;
+  margin-bottom: 28px;
+}
+.main .banner .multi_menu > li .sub_menu li img {
+  float: left;
+  width: 40px;
+  height: 40px;
+  margin-left: 30px;
+}
+.main .banner .multi_menu > li .sub_menu li span {
+  float: left;
+  display: inline-block;
+  margin-left: 20px;
+  height: 40px;
+  line-height: 40px;
+}
+.main .banner .multi_menu > li .sub_menu:nth-last-of-type(1) {
+  margin-bottom: 0;
+}
+.main .banner .multi_menu > li .sub_menu2 {
+  left: 470px;
 }
 .main .products_list {
   width: 1173px;

@@ -12,13 +12,15 @@ body {
     .banner {
         position: relative;
         height: 420px;
+        width: 1173px;
+        margin: auto;
         .toPrev {
-
+            display: none;
             width: 40px;
             height: 64px;
             background: #86ADD7;
             border-radius: 5px;
-            left: 413px;
+            left: 210px;
             top: 42%;
             position: absolute;
             z-index: 999;
@@ -32,11 +34,12 @@ body {
             }
         }
         .toNext {
+            display: none;
             width: 40px;
             height: 64px;
             background: #86ADD7;
             border-radius: 5px;
-            right: 257px;
+            right: 41px;
             line-height: 64px;
             top: 42%;
             position: absolute;
@@ -51,7 +54,7 @@ body {
         }
         .carousel {
             width: 1920px;
-            height: 430px;
+            height: 420px;
             position: absolute;
             left: -375px;
             .carousel-indicators {
@@ -62,19 +65,81 @@ body {
                     background: #fff;
                     margin: 0 3px;
                     cursor: pointer;
-                    border-radius:0;
-                    border:0;
+                    border-radius: 0;
+                    border: 0;
                 }
-                .active{
+                .active {
                     background: #69C;
-
-
                 }
             }
+            .carousel-control.left,
+            .carousel-control.right {
+                display: none;
+            }
         }
-        .carousel-control.left,
-        .carousel-control.right {
-            display: none;
+        .multi_menu {
+            position: absolute;
+            width: 200px;
+            height: 421px;
+            background: #F5F5F5;
+            z-index: 888;
+            left: 0;
+            &>li {
+                width: 200px;
+                height: 60px;
+                background: #F5F5F5;
+                &>img {
+                    width: 20px;
+                    height: 20px;
+                    margin: 20px;
+                    float: left;
+                }
+                &>span {
+                    display: inline-block;
+                    width: 140px;
+                    height: 100%;
+                    line-height: 60px;
+                    float: left;
+                    font-size: 16px;
+                    color: #333333;
+                }
+                .sub_menu {
+                    position: absolute; 
+                    display: none;
+                    width: 270px;
+                    height: 420px;
+                    top: 0;
+                    left: 200px;
+                    background: #fff;
+                    filter: alpha(opacity=98);
+                    opacity: .98;
+                    padding-top: 20px;
+                    float: left;
+                    li {
+                        height: 40px;
+                        margin-bottom: 28px;
+                        img {
+                            float: left;
+                            width: 40px;
+                            height: 40px;
+                            margin-left: 30px;
+                        }
+                        span {
+                            float: left;
+                            display: inline-block;
+                            margin-left: 20px;
+                            height: 40px;
+                            line-height: 40px;
+                        }
+                    }
+                    &:nth-last-of-type(1){
+                        margin-bottom: 0;
+                    }
+                }
+                .sub_menu2{
+                    left: 470px;
+                }
+            }
         }
     }
     .products_list {
