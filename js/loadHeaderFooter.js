@@ -1,8 +1,8 @@
 define(["jquery", "cookie"], function($) {
-    $(".header").load("html/include/header.html");
-    $(".footer").load("html/include/footer.html");
+    $(".header").load("/html/include/header.html");
+    $(".footer").load("/html/include/footer.html");
     $.get({
-        url: "html/include/header.html",
+        url: "/html/include/header.html",
         success: function(data) {
             if ($.cookie("loginUser")) {
                 var html = 

@@ -4,7 +4,7 @@ require(["config"], function() {
         	e=e||event;
         	e.stopPropagation();
         	$(this).children(".sub_menu").stop().fadeIn();
-        	console.log("show");
+        	// console.log("show");
         	$(this).css("background","#fff");
             $(".toPrev,.toNext").stop().fadeOut();
 
@@ -12,7 +12,7 @@ require(["config"], function() {
         	e=e||event;
         	// e.stopPropagation();
         	$(this).children(".sub_menu").stop().fadeOut();
-        	console.log("hide");
+        	// console.log("hide");
         	$(this).css("background","#F5F5F5");
             $(".toPrev,.toNext").stop().fadeIn();
 

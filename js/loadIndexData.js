@@ -22,7 +22,7 @@ define(["jquery", "cookie"], function($) {
             	$(html).appendTo(".products_table");
             })
              $.each(data[1].tag,function(i,e){
-               console.log(e);
+               // console.log(e);
                $(".products_list .item li:nth-of-type("+i+") a").html(e);
              })
         }
