@@ -1,0 +1,147 @@
+.main {
+    box-sizing: border-box;
+    background-image: url("/img/bgi.png");
+    .main_con {
+        width: 1173px;
+        height: 570px;
+        margin: auto; // background: #16E8D1;
+        .register_box {
+            width: 378px;
+            height: 455px;
+            background: #FFF;
+            border: 1px solid #E5E5E5;
+            border-radius: 5px;
+            float: right;
+            margin-top: 50px;
+            padding: 40px;
+            &>span:nth-of-type(1) {
+                font-size: 19px;
+                font-weight: bold;
+            }
+            ul {
+                overflow: hidden;
+                margin-bottom: 15px;
+                li {
+                    width: 298px;
+                    height: 40px;
+                    margin-bottom: 16px;
+                    border: 1px solid #e5e5e5;
+                    border-radius: 5px;
+                    padding: 6px 0px 4px 10px;
+                    float: left;
+                    img {
+                        width: 36px;
+                        height: 28px;
+                        border-right: 1px solid #e5e5e5;
+                        float: left;
+                        margin-right: 10px;
+                        padding-right: 5px;
+                    }
+                    input {
+                        width: 240px;
+                        height: 28px;
+                        float: left;
+                        border: 0;
+                        outline: 0;
+                        font-size: 13px;
+                        &::-webkit-input-placeholder {
+                            color: #a9a9a9;
+                            opacity: 1;
+                        }
+                    }
+                    &:nth-of-type(1) {
+                        margin-top: 40px;
+                    }
+                    &:nth-of-type(2) {
+                        margin-bottom: 40px;
+                    }
+                    &:nth-of-type(3) {
+                        // margin-top: 40px;
+                        // margin-bottom: 15px;
+                        width: 298px;
+                        background: #69C;
+                        display: inline-block;
+                        padding: 0;
+                        margin: 0;
+                        button {
+                            width: 298px;
+                            height: 40px;
+                            float: left;
+                            border: 0;
+                            background: transparent;
+                            outline: 0;
+                            font-size: 16px;
+                            color: #fff;
+                        }
+                    }
+                }
+            }
+            .forgetPwd {
+                overflow: hidden;
+                margin-bottom: 30px;
+                &>a {
+                    float: left;
+                    font-size: 13px;
+                    color: #999;
+                    &:nth-of-type(2) {
+                        float: right;
+                    }
+                }
+            }
+
+            div.sigma-content {
+                text-align: center;
+                background-color: #fff;
+                margin-bottom: 15px;
+                .sigma-middle-line:before {
+                    content: '';
+                    display: block;
+                    height: 1px;
+                    width: 239px;
+                    background-color: #999;
+                    position: relative;
+                    top: 11px;
+                    margin: auto;
+                }
+                .sigma-line-text {
+                    display: inline-block;
+                    background: #fff;
+                    font-size: 13px;
+                    color: #999;
+                    position: relative;
+                    padding: 0px 3px;
+                }
+            }
+            .weibo_login,
+            .qq_login {
+                overflow: hidden;
+                display: inline-block;
+                margin-left: 70px;
+                div {
+                    width: 32px;
+                    height: 32px;
+                    background-image: url("/img/icon_weibo_n.png");
+                    &:hover {
+                        background-image: url("/img/icon_weibo_p.png");
+                    }
+                }
+                p {
+                    font-size: 13px;
+                    color: #999;
+                    text-indent: 3px;
+                }
+            }
+            .qq_login {
+                div {
+                    background-image: url("/img/icon_qq_n.png");
+                    &:hover {
+                        background-image: url("/img/icon_qq_p.png");
+                    }
+                }
+                p{
+                    text-indent: 6px;
+                }
+            }
+        }
+    }
+}
