@@ -1,0 +1,18 @@
+.main {
+    background-image: url("/img/bgi.png");
+    .main_con {
+        width: 1173px;
+        height: 570px;
+        margin: auto;
+        background: #16E8D1;
+        .register_box{
+        	width: 378px;
+        	height: 455px;
+        	background: #FFF;
+        	border: 1px solid #E5E5E5;
+        	border-radius: 5px;
+        	float: right;
+        	margin-top: 50px;
+        }
+    }
+}
