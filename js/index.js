@@ -1,5 +1,5 @@
 require(["config"], function() {
-    require(["jquery", "load","loadCarousel","loadIndexData"], function($) {
+    require(["jquery", "load","loadCarousel","loadIndexData","cookie"], function($) {
         $(".banner>ul>li").hover(function(e){
         	e=e||event;
         	e.stopPropagation();

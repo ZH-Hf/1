@@ -62,12 +62,54 @@ require(["config"], function() {
             }
         });
         //注册，将用户名和密码保存到cookie中
+        /* $("#toReg").click(function() {
+             if (boolUser && boolYzm && boolPwd1 && boolPwd2) {
+                 $.cookie("username", $("#username").val());
+                 $.cookie("password", $("#password1").val());
+             } else {
+                 alert("请检查输入");
+             }
+         })*/
+        //检测用户名是否存在
+        var isExist;
+
+        function checkUserExist(name) {
+            $.ajax({
+                type: "post",
+                url: "/php/demo1.php",
+                async: true,
+                data: { "type": "checkusername", "username": name },
+                success: function(data) {
+                    var flag = JSON.parse(data);
+                    if (flag == true) {
+                        isExist = true;
+                        console.log("用户已存在");
+                    } else {
+                        isExist = false;
+                        console.log("用户未存在");
+                    }
+                }
+            });
+        }
         $("#toReg").click(function() {
-            if (boolUser && boolYzm && boolPwd1 && boolPwd2) {
-               $.cookie("username",$("#username").val());
-               $.cookie("password",$("#password1").val());
-            } else {
-                alert("请检查输入");
+            var username = $("#username").val();
+            checkUserExist(username);
+            if (!isExist && (boolUser && boolYzm && boolPwd1 && boolPwd2)) {
+                // alert("注册成功");
+                var name = $("#username").val(),
+                    password = $("#password1").val();
+                console.log(password);
+                $.ajax({
+                    type: "post",
+                    url: "/php/demo1.php",
+                    async: true,
+                    data: { "type": "insert", "username": name, "password": password },
+                    success: function(data) {
+                        alert("注册成功");
+                        location = "login.html";
+
+                    }
+                });
             }
         })
     })

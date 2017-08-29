@@ -4,6 +4,7 @@ define(["jquery", "cookie"], function($) {
     $.get({
         url: "/html/include/header.html",
         success: function(data) {
+            console.log($.cookie("username"));
             if ($.cookie("username")) {
                 var html =
                  ` <ul class="top_right">
@@ -16,6 +17,8 @@ define(["jquery", "cookie"], function($) {
                 $(".top_right").html(html);
             }
             $("#logout").click(function() {
+                $.cookie("username","",{ path: "/", expires:-1});
+               
                 var html =
                 ` <ul class="top_right">
                     <li><a href="/html/login.html">登录</a></li>
