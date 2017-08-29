@@ -4,7 +4,7 @@ define(["jquery", "cookie"], function($) {
     $.get({
         url: "/html/include/header.html",
         success: function(data) {
-            console.log($.cookie("username"));
+            // console.log($.cookie("username"));
             if ($.cookie("username")) {
                 var html =
                  ` <ul class="top_right">

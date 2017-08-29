@@ -14,7 +14,6 @@ define(["jquery"], function($) {
                 $(".toNext").click(function() {
                     $('.carousel').carousel('next');
                 });
-                console.log("cycle");
                 $(".banner").hover(function() {
                     $(".toPrev,.toNext").fadeIn();
                 }, function() {

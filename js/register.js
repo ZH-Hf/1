@@ -107,7 +107,6 @@ require(["config"], function() {
                     success: function(data) {
                         alert("注册成功");
                         location = "login.html";
-
                     }
                 });
             }
