@@ -15,8 +15,9 @@ require(["config"], function() {
         	// console.log("hide");
         	$(this).css("background","#F5F5F5");
             $(".toPrev,.toNext").stop().fadeIn();
-
         })
+        ;
+       
 
     });
 });

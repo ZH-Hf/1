@@ -165,6 +165,7 @@ body {
                     img {
                         width: 270px;
                         height: 270px;
+                        cursor:pointer;
                     }
                     p {
                         height: 42px;
@@ -175,6 +176,8 @@ body {
                         white-space: nowrap;
                         text-overflow: ellipsis;
                         overflow: hidden;
+                        cursor:pointer;
+                        
                     }
                     span {
                         display: block;

@@ -58,10 +58,9 @@
                 width: 82px;
                 height: 82px;
             }
-
         }
-        .activeThumb{
-            border-color:#000;
+        .activeThumb {
+            border-color: #000;
         }
     }
     .middleImg {
@@ -141,18 +140,32 @@
                     padding: 0px 11px;
                     font-size: 15px;
                 }
+                a.active {
+                    border: 1px solid red;
+                }
                 #amount,
                 #add,
-                #mius {
+                #mius,
+                #iptAmount {
                     width: 33px;
                     height: 33px;
                     margin-right: 0;
                     border: 0;
+                    overflow: hidden;
+                    float: left;
+                    input {
+                        width: 33px;
+                        height: 33px;
+                        margin-right: 0;
+                        border: 0;
+                        outline: 0;
+                    }
                 }
-                #amount {
+                #amount,#iptAmount {
                     border-left: 1px solid #D9D9D9;
                     border-right: 1px solid #D9D9D9;
                     border-radius: 0;
+                    padding: 0;
                 }
             }
             .goodsAmount {

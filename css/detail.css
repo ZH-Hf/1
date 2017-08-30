@@ -117,17 +117,32 @@
           line-height: 34px;
           padding: 0px 11px;
           font-size: 15px; }
+        .goodsInfo .goodsAttr li span a.active {
+          border: 1px solid red; }
         .goodsInfo .goodsAttr li span #amount,
         .goodsInfo .goodsAttr li span #add,
-        .goodsInfo .goodsAttr li span #mius {
+        .goodsInfo .goodsAttr li span #mius,
+        .goodsInfo .goodsAttr li span #iptAmount {
           width: 33px;
           height: 33px;
           margin-right: 0;
-          border: 0; }
-        .goodsInfo .goodsAttr li span #amount {
+          border: 0;
+          overflow: hidden;
+          float: left; }
+          .goodsInfo .goodsAttr li span #amount input,
+          .goodsInfo .goodsAttr li span #add input,
+          .goodsInfo .goodsAttr li span #mius input,
+          .goodsInfo .goodsAttr li span #iptAmount input {
+            width: 33px;
+            height: 33px;
+            margin-right: 0;
+            border: 0;
+            outline: 0; }
+        .goodsInfo .goodsAttr li span #amount, .goodsInfo .goodsAttr li span #iptAmount {
           border-left: 1px solid #D9D9D9;
           border-right: 1px solid #D9D9D9;
-          border-radius: 0; }
+          border-radius: 0;
+          padding: 0; }
       .goodsInfo .goodsAttr li .goodsAmount {
         border: 1px solid #D9D9D9;
         border-radius: 5px; }

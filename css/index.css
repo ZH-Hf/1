@@ -138,7 +138,8 @@ body {
             margin-right: 0; }
           .main .products_list .hot_sale .hot_sale_list .singel_template img {
             width: 270px;
-            height: 270px; }
+            height: 270px;
+            cursor: pointer; }
           .main .products_list .hot_sale .hot_sale_list .singel_template p {
             height: 42px;
             line-height: 42px;
@@ -147,7 +148,8 @@ body {
             font-size: 14px;
             white-space: nowrap;
             text-overflow: ellipsis;
-            overflow: hidden; }
+            overflow: hidden;
+            cursor: pointer; }
           .main .products_list .hot_sale .hot_sale_list .singel_template span {
             display: block;
             color: #E73955;

@@ -80,7 +80,8 @@ img {
   display: inline-block; }
 
 .logo img {
-  margin: 28px 188px 0 0; }
+  margin: 28px 188px 0 0;
+  cursor: pointer; }
 
 .search_box {
   display: inline-block;
@@ -136,6 +137,7 @@ img {
   border-radius: 5px;
   float: right;
   display: inline-block;
+  cursor: pointer;
   margin-top: 30px;
   padding: 0 14px; }
 
