@@ -3,6 +3,7 @@ define(["jquery", "cookie"], function($) {
     $.getJSON({
         url: "mock/list.json",
         success: function(data) {
+            console.log(data);
             $.each(data[0].products, function(i, e) {
                 var html = `<div class="singel_template">
                     <img src="${e.imgSrc}" alt="">
