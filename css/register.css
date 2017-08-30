@@ -1,2 +1,100 @@
-.main{box-sizing:border-box;background-image:url("/img/bgi.png")}.main .main_con{width:1173px;height:570px;margin:auto}.main .main_con .register_box{width:378px;height:455px;background:#FFF;border:1px solid #E5E5E5;border-radius:5px;float:right;margin-top:50px;padding:40px}.main .main_con .register_box span{font-size:19px;font-weight:bold;margin-bottom:40px}.main .main_con .register_box a{font-size:13px;float:right;color:#999;border-bottom:1px solid #999}.main .main_con .register_box .hint{visibility:hidden;overflow:hidden;position:relative;display:block;min-height:14px;margin:30px  0 5px 0}.main .main_con .register_box .hint img{width:14px;height:14px;margin-right:5px;float:left;position:absolute;top:0px}.main .main_con .register_box .hint p{font-size:12px;font-weight:100;float:left;margin-left:20px}.main .main_con .register_box ul li{width:298px;height:40px;margin-bottom:16px;border:1px solid #e5e5e5;border-radius:5px;padding:6px 0px 4px 10px;float:left}.main .main_con .register_box ul li img{width:36px;height:28px;border-right:1px solid #e5e5e5;float:left;margin-right:10px;padding-right:5px}.main .main_con .register_box ul li input{width:240px;height:28px;float:left;border:0;outline:0;font-size:13px}.main .main_con .register_box ul li input::-webkit-input-placeholder{color:#a9a9a9;opacity:1}.main .main_con .register_box ul li:nth-of-type(1){margin-top:0}.main .main_con .register_box ul li:nth-of-type(2){width:165px;display:inline-block;margin-right:7px}.main .main_con .register_box ul li:nth-of-type(2) input{width:100px}.main .main_con .register_box ul li:nth-of-type(5){margin-bottom:40px}.main .main_con .register_box ul li:nth-of-type(3),.main .main_con .register_box ul li:nth-of-type(6){width:124px;background:#69C;display:inline-block;padding:0;margin:0}.main .main_con .register_box ul li:nth-of-type(3) button,.main .main_con .register_box ul li:nth-of-type(6) button{width:124px;height:40px;float:left;border:0;background:transparent;outline:0;font-size:16px;color:#fff}.main .main_con .register_box ul li:nth-of-type(6){width:298px}.main .main_con .register_box ul li:nth-of-type(6) button{width:298px}
+.main {
+  box-sizing: border-box;
+  background-image: url("/img/bgi.png"); }
+  .main .main_con {
+    width: 1173px;
+    height: 570px;
+    margin: auto; }
+    .main .main_con .register_box {
+      width: 378px;
+      height: 455px;
+      background: #FFF;
+      border: 1px solid #E5E5E5;
+      border-radius: 5px;
+      float: right;
+      margin-top: 50px;
+      padding: 40px; }
+      .main .main_con .register_box span {
+        font-size: 19px;
+        font-weight: bold;
+        margin-bottom: 40px; }
+      .main .main_con .register_box a {
+        font-size: 13px;
+        float: right;
+        color: #999;
+        border-bottom: 1px solid #999; }
+      .main .main_con .register_box .hint {
+        visibility: hidden;
+        overflow: hidden;
+        position: relative;
+        display: block;
+        min-height: 14px;
+        margin: 30px  0 5px 0; }
+        .main .main_con .register_box .hint img {
+          width: 14px;
+          height: 14px;
+          margin-right: 5px;
+          float: left;
+          position: absolute;
+          top: 0px; }
+        .main .main_con .register_box .hint p {
+          font-size: 12px;
+          font-weight: 100;
+          float: left;
+          margin-left: 20px; }
+      .main .main_con .register_box ul li {
+        width: 298px;
+        height: 40px;
+        margin-bottom: 16px;
+        border: 1px solid #e5e5e5;
+        border-radius: 5px;
+        padding: 6px 0px 4px 10px;
+        float: left; }
+        .main .main_con .register_box ul li img {
+          width: 36px;
+          height: 28px;
+          border-right: 1px solid #e5e5e5;
+          float: left;
+          margin-right: 10px;
+          padding-right: 5px; }
+        .main .main_con .register_box ul li input {
+          width: 240px;
+          height: 28px;
+          float: left;
+          border: 0;
+          outline: 0;
+          font-size: 13px; }
+          .main .main_con .register_box ul li input::-webkit-input-placeholder {
+            color: #a9a9a9;
+            opacity: 1; }
+        .main .main_con .register_box ul li:nth-of-type(1) {
+          margin-top: 0; }
+        .main .main_con .register_box ul li:nth-of-type(2) {
+          width: 165px;
+          display: inline-block;
+          margin-right: 7px; }
+          .main .main_con .register_box ul li:nth-of-type(2) input {
+            width: 100px; }
+        .main .main_con .register_box ul li:nth-of-type(5) {
+          margin-bottom: 40px; }
+        .main .main_con .register_box ul li:nth-of-type(3), .main .main_con .register_box ul li:nth-of-type(6) {
+          width: 124px;
+          background: #69C;
+          display: inline-block;
+          padding: 0;
+          margin: 0; }
+          .main .main_con .register_box ul li:nth-of-type(3) button, .main .main_con .register_box ul li:nth-of-type(6) button {
+            width: 124px;
+            height: 40px;
+            float: left;
+            border: 0;
+            background: transparent;
+            outline: 0;
+            font-size: 16px;
+            color: #fff; }
+        .main .main_con .register_box ul li:nth-of-type(6) {
+          width: 298px; }
+          .main .main_con .register_box ul li:nth-of-type(6) button {
+            width: 298px; }
+
 /*# sourceMappingURL=register.css.map */
