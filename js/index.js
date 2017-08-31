@@ -16,6 +16,11 @@ require(["config"], function() {
             $(this).css("background", "#F5F5F5");
             $(".toPrev,.toNext").stop().fadeIn();
         });
+        $(".multi_menu").css({
+            cursor:"pointer"
+        }).click(function(){
+            location = "html/list.html"
+        })
         // 获取窗口高度
         var winHeight = $(window).height();
         // 获取1L之前的布局结构高度

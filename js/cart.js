@@ -144,6 +144,7 @@ require(["config"], function() {
             $.cookie("totalPrice",_totalPrice,{path: "/", expires: 7 });
             var _cookie = JSON.stringify(productsToPay);
             $.cookie("productsToPay", _cookie, {path: "/", expires: 7 });
+            location = "confirm.html";
 
         })
 
