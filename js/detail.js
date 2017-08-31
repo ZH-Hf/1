@@ -4,6 +4,7 @@ require(["config"], function() {
         var urlId = location.search;
         var shopId = urlId.split("=")[1];
         // console.log(shopId);
+        // shopId = shopId||-2;
         if (shopId)
             $.ajax({
                 url: "/mock/list.json",
@@ -90,7 +91,7 @@ require(["config"], function() {
             $("#insertCart").click(function() {
 
                 var product = {
-                    id: shopId,
+                    id: shopId||-2,
                     name: $(".goodsTitle").html(),
                     price: $(".priceNum").text(),
                     img: $("#zoom").prop("src"),
@@ -125,12 +126,12 @@ require(["config"], function() {
                 console.log(products);
                 $(".shopping_num").html(products.length);
                 _cookie = JSON.stringify(products);
-                $.cookie("products", _cookie, { expires: 7 });
+                $.cookie("products", _cookie, {path: "/", expires: 7 });
                 // alert("加入购物车成功");
                 require(["fly"], function() {
-                    var _offsetStart =  $("#insertCart").offset(),
+                    var _offsetStart = $("#insertCart").offset(),
                         _offsetStop = $(".shopping_bag").offset();
-                    var flyer = $('<img style="width:100px;height:100px;border-radius:50%" class="flyer" src='+$("#zoom").prop("src")+'>');
+                    var flyer = $('<img style="width:100px;height:100px;border-radius:50%" class="flyer" src=' + $("#zoom").prop("src") + '>');
                     flyer.fly({
                         start: {
                             left: _offsetStart.left, //开始位置（必填）#fly元素会被设置成position: fixed
@@ -139,7 +140,7 @@ require(["config"], function() {
                             height: 100, //结束时高度
                         },
                         end: {
-                            left: _offsetStop.left+50, //结束位置（必填）
+                            left: _offsetStop.left + 50, //结束位置（必填）
                             top: _offsetStop.top, //结束位置（必填）
                             width: 10, //结束时高度
                             height: 10, //结束时高度
@@ -151,7 +152,7 @@ require(["config"], function() {
                             $(".flyer").hide().remove();
                         } //结束回调
                     });
-                 
+
                 })
             });
         });
