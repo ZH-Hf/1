@@ -33,7 +33,7 @@ require(["config"], function() {
         $(window).scroll(function() {
             var _scrollTop = $(window).scrollTop();
             floorIndex = parseInt((_scrollTop - layoutHeight + winHeight / 2) / floorHeight);
-            console.log(floorIndex);
+            // console.log(floorIndex);
             if (autoScroll) {
                 // 获取当前滚动的高度
 

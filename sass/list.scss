@@ -1,12 +1,15 @@
 .list{
     width: 1170px;
     margin: auto;
+    overflow: hidden;
 }
 
-
+.main{
+    margin-bottom: 40px;
+}
 
 .singel_template {
-    width: 270px;
+    width: 265px;
     height: 320px;
     border:1px solid #ccc;
     border-radius:5px;
