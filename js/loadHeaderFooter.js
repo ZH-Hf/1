@@ -35,7 +35,10 @@ define(["jquery", "cookie"], function($) {
             });
             $(".shopping_bag").click(function(){
                 location = "/html/cart.html"
-            })
+            });
+            var products = $.cookie("products")||"[]";
+            var shopping_num = JSON.parse(products).length; 
+            $(".shopping_num").html(shopping_num);
         }
     });
 });

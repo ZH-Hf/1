@@ -9,6 +9,7 @@ require.config({
 		"bootstrap":"lib/bootstrap-3.3.7-dist/js/bootstrap.min",
 		"loadCarousel":"js/loadCarousel",
 		"loadIndexData":"js/loadIndexData",
-		"zoom":"lib/jquery.elevateZoom-3.0.8.min"
+		"zoom":"lib/jquery.elevateZoom-3.0.8.min",
+		"fly":"lib/jquery_plugins/jquery.fly.min"
 	}
 });

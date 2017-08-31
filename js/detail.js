@@ -88,6 +88,7 @@ require(["config"], function() {
 
             var products = JSON.parse(_cookie);
             $("#insertCart").click(function() {
+
                 var product = {
                     id: shopId,
                     name: $(".goodsTitle").html(),
@@ -122,13 +123,37 @@ require(["config"], function() {
                 }
                 // if(productsId.index(product.id));
                 console.log(products);
+                $(".shopping_num").html(products.length);
                 _cookie = JSON.stringify(products);
-                $.cookie("products", _cookie);
-                alert("加入购物车成功");
+                $.cookie("products", _cookie, { expires: 7 });
+                // alert("加入购物车成功");
+                require(["fly"], function() {
+                    var _offsetStart =  $("#insertCart").offset(),
+                        _offsetStop = $(".shopping_bag").offset();
+                    var flyer = $('<img style="width:100px;height:100px;border-radius:50%" class="flyer" src='+$("#zoom").prop("src")+'>');
+                    flyer.fly({
+                        start: {
+                            left: _offsetStart.left, //开始位置（必填）#fly元素会被设置成position: fixed
+                            top: _offsetStart.top, //开始位置（必填）
+                            width: 100, //结束时高度
+                            height: 100, //结束时高度
+                        },
+                        end: {
+                            left: _offsetStop.left+50, //结束位置（必填）
+                            top: _offsetStop.top, //结束位置（必填）
+                            width: 10, //结束时高度
+                            height: 10, //结束时高度
+                        },
+                        // autoPlay: false, //是否直接运动,默认true
+                        speed: 1.1, //越大越快，默认1.2
+                        vertex_Rtop: 100, //运动轨迹最高点top值，默认20
+                        onEnd: function() {
+                            $(".flyer").hide().remove();
+                        } //结束回调
+                    });
+                 
+                })
             });
         });
-
-
-
     })
 })
