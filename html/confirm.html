@@ -1,17 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="UTF-8">
-	<title>Document</title>
-	  <link rel="stylesheet" type="text/css" href="/lib/bootstrap-3.3.7-dist/css/bootstrap.min.css">
+    <meta charset="UTF-8">
+    <title>结算页面</title>
+    <link rel="stylesheet" type="text/css" href="/lib/bootstrap-3.3.7-dist/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="/css/header.css">
     <link rel="stylesheet" type="text/css" href="/css/footer.css">
     <link rel="stylesheet" type="text/css" href="/css/confirm.css">
     <script type="text/javascript" src="/lib/requirejs/require.js" data-main="/js/confirm"></script>
 </head>
+
 <body>
-	<div class="header"></div>
-	<div class="main"></div>
-	<div class="footer"></div>
+    <div class="header"></div>
+    <div class="main">
+        <div class="receiver">
+            <div class="receive_title">收货信息</div>
+            <table class="receiv_info">
+                <tr>
+                    <td class="tableLabel">收件人</td>
+                    <td>
+                        <input type="text" name="" id="receive_person">
+                    </td>
+                    <td class="tableLabel">手机号码</td>
+                    <td>
+                        <input type="text" class="telNum"></input>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="tableLabel">所在地区</td>
+                    <td>
+                        <select id="province">
+                            <option>-选择省-</option>
+                        </select>
+                    </td>
+                    <td>
+                        <select id="city">
+                            <option>-选择市-</option>
+                        </select>
+                    </td>
+                    <td>
+                        <select id="district">
+                            <option>-选择县-</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="tableLabel">详细地址</td>
+                    <td colspan="3">
+                        <textarea></textarea>
+                    </td>
+                </tr>
+            </table>
+            <div class="check_box">
+                <input type="checkbox" name="" id="sure_address">
+                <label for="sure_address">设为默认</label>
+                <br>
+                <button>确认</button>
+            </div>
+        </div>
+        <div class="shopToPay">
+            <div class="table">
+                <table>
+                    <tr class="thead">
+                        <td class="firstTd">
+                        </td>
+                        <td style="text-indent: 37px">
+                            商品信息
+                        </td>
+                        <td></td>
+                        <td>单价</td>
+                        <td>数量</td>
+                        <td>优惠</td>
+                        <td>总价</td>
+                        <td class="lastTd"></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <div class="GoToPay">
+            <span>支付价格：<b></b></span>
+            <button>去支付</button>
+        </div>
+    </div>
+    <div class="footer"></div>
 </body>
+
 </html>

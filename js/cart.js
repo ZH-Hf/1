@@ -45,14 +45,11 @@ require(["config"], function() {
             var sum = 0;
             $(".sub_ck").each(function(ele) {
                 if ($(this).prop("checked")) {
-                    console.log(Number($(this).parent().parent().find(".totalPrice").html()));
-
                     var thisPrice = $(this).parent().parent().find(".totalPrice").html();
                     sum += Number(thisPrice);
                 }
             })
             $(".twoprice").html(sum);
-            console.log(sum);
         };
 
 
@@ -86,7 +83,7 @@ require(["config"], function() {
             $(".shopping_num").html(products.length);
             //在cookie中删除
             var id = $(this).data("id");
-            console.log(id);
+            // console.log(id);
 
             function indexOfId(id) {
                 var i;
@@ -100,7 +97,7 @@ require(["config"], function() {
                     return -1;
             }
             var IdIndex = indexOfId(id);
-            console.log(IdIndex);
+            // console.log(IdIndex);
             products.splice(IdIndex, 1);
             var _cookie = JSON.stringify(products);
             $.cookie("products", _cookie, { path: "/", expries: 7 });
@@ -126,6 +123,27 @@ require(["config"], function() {
         })
         $(".sub_ck").change(function() {
             calTotal();
+        });
+
+        //点击结算
+        var productsToPay = [];
+        $(".clearing").click(function() {
+          productsToPay=[];
+            $(".sub_ck").each(function(ele) {
+                if ($(this).prop("checked")) {
+                    var productsToPayID = $(this).parent().parent().find(".lastTd a").data("id");
+                    $.each(products,function(ind,ele){
+                      if(ele.id==productsToPayID)
+                        productsToPay.push(ele);
+                    })
+                    // console.log(productsToPay);
+                };
+
+            });
+            var _totalPrice = $(".twoprice").html();
+            $.cookie("totalPrice",_totalPrice,{path: "/", expires: 7 });
+            var _cookie = JSON.stringify(productsToPay);
+            $.cookie("productsToPay", _cookie, {path: "/", expires: 7 });
 
         })
 

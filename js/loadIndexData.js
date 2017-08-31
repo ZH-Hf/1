@@ -1,5 +1,4 @@
 define(["jquery", "cookie"], function($) {
-
     $.getJSON({
         url: "mock/list.json",
         success: function(data) {
